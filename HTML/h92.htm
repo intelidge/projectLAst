@@ -1,0 +1,232 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=RU>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><b><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Линейный алгоритм</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Если внимательно
+обдумать рассмотренные в предыдущем параграфе примеры, то можно прийти к
+выводу, что светофор работает в строгой последовательности. Светофор, &quot;не
+глядя&quot;, управляет движением машин, не обращая внимания на обстановку на перекрестке.
+Вот алгоритм работы светофора:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>КРАСНЫЙ-ЗЕЛЕНЫЙ-ЖЕЛТЫЙ-КРАСНЫЙ-</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ЗЕЛЕНЫЙ-ЖЕЛТЫЙ-КРАСНЫЙ
+и .т. д.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Такой алгоритм
+называется <b>линейным</b> или <b>последовательным</b>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><b><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Обратная связь</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Совсем иначе протекает
+процесс управления телевизором или собакой. Прежде чем отдать очередную
+команду, человек смотрит на состояние объекта управления, на результат
+выполнения предыдущей команды. Если он не нашел нужную передачу на данном
+канале, то он переключит телевизор на следующий канал; если собака не выполнила
+команду &quot;Лежать!&quot;, хозяин повторит эту команду. </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Из этих примеров можно
+сделать вывод, что управление происходит эффективнее, если управляющий не
+только отдает команды, т. е. работает <b>прямая связь</b>, но и принимает
+информацию от объекта управления о его состоянии. Этот процесс называется <b>обратной
+связью</b>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><b><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Обратная связь</span></b><span
+style='font-size:14.0pt;line-height:150%;font-family:"Times New Roman","serif"'>-
+это процесс передачи информации о состоянии объекта управления управляющему
+объекту.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><b><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Модель управления с
+обратной связью</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><b><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Циклы и ветвления в
+алгоритмах</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Вот как можно записать
+алгоритм поиска нужной передачи по телевизору:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ВКЛЮЧИТЬ ТЕЛЕВИЗОР НА
+1-М КАНАЛЕ</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ПОКА НЕ БУДЕТ НАЙДЕНА
+ИСКОМАЯ ПЕРЕДАЧА,</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ПОВТОРЯТЬ:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ПЕРЕКЛЮЧИТЬ ТЕЛЕВИЗОР
+НА СЛЕДУЮЩИЙ </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>КАНАЛ</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>В этом алгоритме
+содержится указание на повторение одних и тех же действий (переключить канал)
+по некоторому условию (пока не найдем передачу). Такой алгоритм называется <b>циклическим</b>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Если вместо светофора
+на перекрестке дорог работает милиционер- регулировщик, то управление движением
+станет более рациональным. Регулировщик следит за скоплением машин на
+пересекающихся дорогах и дает &quot;зеленую улицу&quot; в том направлении, в
+котором в данный момент нужнее. Нередко из-за &quot;безмозглого&quot;
+управление светофора на дорогах возникают &quot;пробки&quot;. И тут на помощь
+может прийти регулировщик.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Назовем пересекающиеся
+дороги Дорога-1 и Дорога- 2. Логика управления движением описывается следующим
+алгоритмом:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ЕСЛИ НА ДОРОГЕ- 1
+СКОПИЛОСЬ БОЛЬШЕ МАШИН</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ТО ОТКРЫТЬ ДВИЖЕНИЕ ПО
+ДОРОГЕ- 1</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>ИНАЧЕ ОТКРЫТЬ ДВИЖЕНИЕ
+ПО ДОРОГЕ- 2</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Здесь по определенному
+условию происходит выбор одного из двух действий. Такой алгоритм называется ветвящимся.
+Проверка выполнения условия первом, и во втором примере стала возможна
+благодаря обратной связи: телезритель наблюдает за состоянием телевизора, милиционер
+наблюдает за состоянием движения на дорогах.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Итак, в варианте управления
+<i>без обратной связи</i> алгоритм может представлять собой только однозначную
+(линейную) последовательность команд. При наличии обратной связи и
+&quot;интеллектуального&quot; управляющего объекта алгоритмы управления могут
+иметь сложную структуру, содержащую альтернативные команды (ветвления) и
+повторяющиеся команды (циклы). </span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>При наличии обратной
+связи алгоритм может быть более гибким, допускающим проверку условий, ветвления
+и циклы.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Принцип управления с
+обратной связью и есть основной закон, открытый наукой кибернетикой. Он
+действует в системах самой разной природы: технических, биологических,
+социальных.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><b><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Системы с программным
+управлением</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Системы, в которых роль
+управляющего объекта поручается компьютеру, называются <b>автоматическими
+системами с программным управлением</b>.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Для функционирования
+такой системы, во- первых, между компьютером и объектом управления должна быть
+обеспечена прямая и обратная связь, во- вторых, в память компьютера должна быть
+заложена программа управления (алгоритм, записанный на языке программирования).
+Поэтому такой способ управления называют <b>программным управлением.</b></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;text-indent:35.45pt;line-height:150%'><span style='font-size:14.0pt;
+line-height:150%;font-family:"Times New Roman","serif"'>Программное управление
+широко используется в технических системах: автопилот в самолете,
+автоматическая линия на заводе, ускоритель элементарных частиц в физической
+лаборатории, атомный реактор на электростанции и пр.</span></p>
+
+</div>
+
+</body>
+
+</html>

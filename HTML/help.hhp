@@ -1,0 +1,20 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=help.chm
+Contents file=Table of Contents.hhc
+Default topic=h81.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x419 Русский (Россия)
+
+
+[FILES]
+h81.htm
+h82.htm
+h83.htm
+h91.htm
+h92.htm
+h93.htm
+
+[INFOTYPES]
+
